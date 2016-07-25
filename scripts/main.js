@@ -1,3 +1,11 @@
+// Replace svg with png as fallback if browser can't support svg
+
+if (typeof SVGRect == "undefined") {
+    $("img[src$='.svg']").each(function() {
+        $(this).attr('src', $(this).attr('src').replace(/\.svg/, '.png'));
+    });
+}
+
 
 var sortType = 'TITLE';
 var datas = [];

@@ -1,0 +1,12 @@
+#parent-wrapper {
+  width: 100%;
+  background: #121C25;
+  height: 300px; }
+  #parent-wrapper .header {
+    background: red;
+    height: 100px;
+    padding-left: 20px; }
+    #parent-wrapper .header img {
+      width: 145px; }
+
+/*# sourceMappingURL=main.css.map */
