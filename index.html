@@ -2,14 +2,86 @@
     <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>app</title>
+        <title>OMDb | Home</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="styles/normalize.css">
-        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <div id="parent-wrapper">
+            <section class="header">
+                <a href="#"><img src="img/omdb_logo.svg"></a>
+            </section>
+
+            <section class="title-container">
+                <h1>OMDb</h1>
+                <p>The Open <span style="color: #22D1BD">Movie</span> Database</p>
+            </section>
+
+            <section class="search_input">
+                <div>
+                    <div class="left-inner-addon ">
+                        <i class="icon-user"></i>
+                        <input type="text"
+                               class="form-control" 
+                               id="search-input"
+                               placeholder="Search for anything right here, right now..." />
+                      <input type="submit" value="SEARCH">
+                    </div>
+                </div>
+            </section>
+
+            <section class="results">
+                    <div class="title">
+                        <h1>Results</h1>
+
+                        <span>sort:</span>
+                        <input id="title-input" type="radio" name="sort-group" value="TITLE" checked="">
+                        <label for="title-input">Title</label>,
+                        
+                        <input id="date-input" type="radio" name="sort-group" value="DATE">
+                        <label for="date-input">Date</label>
+
+                        <ul class="film-list">
+                        </ul>
+                    </div>
+
+                    <div class="movie-list">
+
+<!--                         <div class="movie-item">
+                            <img src="http://ia.media-imdb.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg">
+                            <div class="movie-details">
+                                <p class="category">FILM</p>
+                                <p class="movie-title">Avengers</p>
+                                <p class="movie-date">2015</p>
+                            </div>
+                        </div>
+
+                        <div class="movie-item">
+                            
+
+                        </div>
+
+                        <div class="movie-item">
+                            
+
+                        </div>
+
+                        <div class="movie-item">
+                            
+
+                        </div>
+ -->
+
+                        
+
+                    </div>
+                    
+
+
+
+            </section>
 
 
             

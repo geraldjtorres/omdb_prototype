@@ -1,0 +1,111 @@
+/*Fonts*/
+@font-face {
+  font-family: gt_walsheim_light;
+  src: url(../fonts/gt-walsheim-light.woff); }
+@font-face {
+  font-family: gt_walsheim_medium;
+  src: url(../fonts/gt-walsheim-medium-web.woff); }
+p {
+  font-family: gt_walsheim_light; }
+
+#parent-wrapper {
+  width: 100%;
+  background: #121C25;
+  /*height: 600px;*/ }
+
+.header {
+  /*background: red;*/
+  height: 100px;
+  padding-left: 52px; }
+  .header img {
+    width: 100px;
+    margin-top: 8px; }
+
+.title-container {
+  /*background: red;*/
+  text-align: center; }
+  .title-container h1 {
+    color: #fff;
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: gt_walsheim_medium; }
+  .title-container p {
+    color: #AEBAC7;
+    margin: 0;
+    font-family: gt_walsheim_light;
+    font-size: 1.5em; }
+
+.search_input {
+  /*background: blue;*/
+  height: 100px;
+  padding-top: 56px; }
+  .search_input div {
+    max-width: 505px;
+    width: 100%;
+    margin: 0 auto;
+    /*background: green;*/ }
+
+input[type="text"] {
+  width: 340px;
+  height: 42px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 50px 0 0 50px;
+  border: solid 1px #f0f0f0;
+  background: url("../img/search_icon.svg") no-repeat 14px 12px;
+  background-size: 20px;
+  background-color: white;
+  font-family: gt_walsheim_light; }
+
+input[type="submit"] {
+  position: relative;
+  top: -1px;
+  margin-left: -40px;
+  height: 46px;
+  width: 95px;
+  background: white;
+  color: #1D1F20;
+  border: 0;
+  -webkit-appearance: none;
+  border-radius: 0 50px 50px 0;
+  border: solid 1px #f0f0f0;
+  font-family: gt_walsheim_medium;
+  font-size: 0.8em;
+  padding: 0 6px; }
+
+/* Results styling*/
+.results {
+  width: 100%;
+  background: #22D1BD;
+  height: 900px;
+  padding: 30px 0 0 0; }
+  .results h1 {
+    margin: 0; }
+
+.title {
+  background: red; }
+
+.movie-list {
+  background: pink;
+  height: 600px;
+  max-width: 1040px;
+  width: 100%;
+  margin: 0 auto; }
+  .movie-list .movie-item {
+    width: 320px;
+    height: 130px;
+    background: white;
+    border-radius: 3px;
+    float: left;
+    margin: 16px 40px 16px 0; }
+    .movie-list .movie-item img {
+      width: 60px;
+      margin: 16px 0 0 16px;
+      float: left; }
+    .movie-list .movie-item .movie-details {
+      float: left;
+      margin-left: 16px; }
+  .movie-list .movie-item:nth-child(3n) {
+    margin-right: 0; }
+
+/*# sourceMappingURL=main.css.map */
