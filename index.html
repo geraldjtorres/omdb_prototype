@@ -6,12 +6,18 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/normalize.css">
+
+
+        <link rel="stylesheet" href="css/jquery.fancybox-buttons.css">
+        <link rel="stylesheet" href="css/jquery.fancybox-thumbs.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <div id="parent-wrapper">
             <section class="header">
-                <a href="#"><img src="img/omdb_logo.svg"></a>
+                <img src="img/omdb_logo.svg">
             </section>
 
             <section class="title-container">
@@ -27,55 +33,23 @@
                                class="form-control" 
                                id="search-input"
                                placeholder="Search for anything right here, right now..." />
-                      <input type="submit" value="SEARCH">
+                      <!-- <input type="submit" value="SEARCH"> -->
                     </div>
                 </div>
             </section>
 
             <section class="results">
                     <div class="title">
-                        <h1>Results</h1>
-
-                        <span>sort:</span>
-                        <input id="title-input" type="radio" name="sort-group" value="TITLE" checked="">
-                        <label for="title-input">Title</label>,
-                        
-                        <input id="date-input" type="radio" name="sort-group" value="DATE">
-                        <label for="date-input">Date</label>
-
-                        <ul class="film-list">
-                        </ul>
+                        <h1 style="color:#fff">Results</h1>
                     </div>
 
                     <div class="movie-list">
 
-<!--                         <div class="movie-item">
-                            <img src="http://ia.media-imdb.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg">
-                            <div class="movie-details">
-                                <p class="category">FILM</p>
-                                <p class="movie-title">Avengers</p>
-                                <p class="movie-date">2015</p>
-                            </div>
-                        </div>
+                    </div>
 
-                        <div class="movie-item">
-                            
-
-                        </div>
-
-                        <div class="movie-item">
-                            
-
-                        </div>
-
-                        <div class="movie-item">
-                            
-
-                        </div>
- -->
-
+                    <!-- Lightbox movie info holder -->
+                    <div id="movie_info">
                         
-
                     </div>
                     
 
@@ -89,6 +63,10 @@
         </div>
 
         <script src="scripts/jquery-2.2.1.min.js"></script>
+        
+        <script src="scripts/jquery.fancybox.js"></script>
+
+
         <script src="scripts/main.js"></script>
     </body>
 </html>
